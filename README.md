@@ -1,2 +1,0 @@
-# Laravel
-All Laravel Projects
