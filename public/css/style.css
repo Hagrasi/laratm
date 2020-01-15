@@ -1,0 +1,81 @@
+body{ 
+    background: #b6b6b6;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+#login_view{
+    width: 400px;
+    background: #f0f0f0 url(../img/login_bg.jpg) repeat-x 0 0em ;
+    border: 1px solid white;
+    margin: 80px auto 0;
+    padding: 5em;
+    -moz-border-radius:10px;
+    -o-border-radius:10px;
+    -webkit-border-radius:10px;
+}
+h1,h2,h3,h4,h5 {
+   margin-top: 0;
+   font-family: arial black, arial;
+   text-align: center;
+}
+input[type=text],input[type=password]{
+    display: block;
+    margin: 0 0 1em 0;
+    width: 200px;
+    border: 5px;
+    -moz-border-radius:5px;
+    -o-border-radius:5px;
+    -webkit-border-radius:5px;
+    padding: 1em;
+}
+input[type=submit] , form a {
+    border: none;
+    margin-right: 1em;
+    padding: 6px;
+    text-decoration: none;
+    font-size: 12px;
+    -moz-border-radius:5px;
+    -o-border-radius:5px;
+    -webkit-border-radius:5px;
+    background: #348075;
+    color: white;
+    box-shadow: 0 1px 0 white;
+    -webkit-box-shadow: 0 1px 0 white;
+    -moz-box-shadow: 0 1px 0 white;
+    alignment-adjust: central;
+        
+}
+input[type=submit]:hover,   form a :hover{
+    background: #287368;
+    cursor: pointer;
+}
+.error{
+    color: #393939;
+    font-size: 15px;
+}
+fieldset{
+    width: 300px;
+    margin: auto;
+    margin-bottom: 2em;
+    display: block;
+}
+h1{
+    text-shadow: 0 1px 0 white;
+}
+/*#error{
+    text-decoration: none;
+    color: white;
+    height: 40px;
+    background-color: bisque;
+    font-weight: 800;
+    background-color: rgba(150,150,150,0.5);
+    border-radius:7px 12px;
+    -moz-border-radius:7px 12px;
+    -webkit-border-radius:7px 12px;
+    -o-border-radius:7px 12px;
+    box-shadow:2px 2px 5px yellow;
+    -moz-box-shadow:2px 2px 5px yellow;
+    -webkit-box-shadow:2px 2px 5px yellow;
+    -o-box-shadow:2px 2px 5px yellow;
+}*/
